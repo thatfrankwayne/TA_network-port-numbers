@@ -45,7 +45,7 @@ def make_table_from_iana_registry():
 
 def write_table_to_stdout() -> None:
     global table
-    sys.stdout.write("iana_port,iana_transport,iana_service,iana_description\n")
+    sys.stdout.write("iana_port,iana_transport,iana_service,iana_description\n\n")
     for k in sorted(table.keys()):
         sys.stdout.write(f"{k[0]},\"{k[1]}\",\"{table[k][0]}\",\"{table[k][1]}\"\n")
 
