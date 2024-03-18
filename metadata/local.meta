@@ -1,3 +1,0 @@
-[]
-access = read : [ * ], write : [ admin, cs_admin ]
-export = system
