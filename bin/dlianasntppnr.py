@@ -1,10 +1,12 @@
 """
-TA_network_port_numbers
-refresh-lookup.py
-Updates the iana-ports-and-transports.csv lookup from IANA.
+TA_network-port-numbers
+dlianasntppnr.py
+
+Outputs a CSV table from the IANA ports registry.
+The table contains only registered transport/port combinations and only the first instance of the transport/port
+combination, which seems to be the latest information.
 """
 
-from codecs import iterdecode
 from contextlib import closing
 import csv
 import requests
@@ -17,8 +19,8 @@ IANA_PROTOCOLS_LINK = "https://www.iana.org/assignments/service-names-port-numbe
 table = {}
 
 
-def make_table_from_iana_registry():
-    # return "service-names-port-numbers.csv"
+# Update the table dict with downloaded IANA port registry data
+def make_table_from_iana_registry() -> None:
     try:
         with closing(requests.get(IANA_PROTOCOLS_LINK)) as req:
             registry = req.text.split("\r\n")
@@ -43,6 +45,7 @@ def make_table_from_iana_registry():
         exit(1)
 
 
+# Write a CSV table for Splunk to consume
 def write_table_to_stdout() -> None:
     global table
     sys.stdout.write("iana_port,iana_transport,iana_service,iana_description\n")
