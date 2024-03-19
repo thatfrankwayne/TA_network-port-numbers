@@ -25,6 +25,9 @@ def make_table_from_iana_registry() -> None:
         with closing(requests.get(IANA_PROTOCOLS_LINK)) as req:
             registry = req.text.split("\r\n")
         registry = [i.replace("\n", "") for i in registry]
+        registry = [i.replace("\"\"", "") for i in registry]
+        registry = [i.replace(" IANA assigned this well-formed service name as a replacement for", "; formerly") for i in registry]
+        registry = [i.replace("IANA assigned this well-formed service name as a replacement for", "Formerly") for i in registry]
         reader = csv.DictReader(registry)
     except Exception as e:
         sys.stderr.write(f"Fatal {e} {type(e)}\n")

@@ -33,4 +33,4 @@ The TA was developed by Frank Wayne.
 
 ## Support Contact
 
-Contact [the developer](mailto:frank.wayne@northwestern.edu) with questions, bug reports or change requests. You can also refer to the [GitHub repository](https://github.com/thatfrankwayne/TA_network-port-numbers).
+Contact [the developer](mailto:frank.wayne@northwestern.edu?subject=TA_network-port-numbers) with questions, bug reports or change requests. You can also refer or contribute to the [GitHub repository](https://github.com/thatfrankwayne/TA_network-port-numbers).
