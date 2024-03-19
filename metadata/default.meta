@@ -1,32 +1,31 @@
 []
-access = read : [ * ], write : [ admin, cs_admin ]
+access = read : [ * ], write : [ admin, sc_admin ]
 export = system
 
 [lookups/iana_ports.csv]
-version = 9.0.6
-modtime = 1710787384.272814000
+owner = nobody
 
 [transforms/iana_ports]
-access = read : [ * ], write : [ admin ]
+access = read : [ * ], write : [ admin, sc_admin ]
 export = system
 owner = nobody
 
 [savedsearches/network-port-numbers_update_iana_ports]
-access = read : [ admin ], write : [ admin ]
+access = read : [ admin, sc_admin ], write : [ admin, sc_admin ]
 export = none
 owner = nobody
 
 [props/source%3A%3A%2A/LOOKUP-network-port-numbers-auto-dest_port]
-access = read : [ * ], write : [ admin ]
+access = read : [ * ], write : [ admin, sc_admin ]
 export = system
 owner = nobody
 
 [props/source%3A%3A%2A/LOOKUP-network-port-numbers-auto-src_port]
-access = read : [ * ], write : [ admin ]
+access = read : [ * ], write : [ admin, sc_admin ]
 export = system
 owner = nobody
 
 [commands/dlianasntppnr]
-access = read : [ admin ], write : [ admin ]
+access = read : [ admin, sc_admin ], write : [ admin, sc_admin ]
 export = none
 owner = nobody
