@@ -7,15 +7,18 @@ A Splunk technology add-on (TA) to enrich network port numbers with service name
 ## Purpose
 
 This TA adds fields to any event that contains a `transport` field and either a `dest_port` or `src_port` field.
-These fields are elements of the Splunk Common Information Model for networking.
+These fields are elements of the Splunk Common Information Model (CIM) for networking.
 
 Depending on which fields are available in an event, service fields and service description fields may be added -- if they are registered with IANA.
 The following table lists the added fields (in **bold**). If both dest and src exist, both sets of service fields may be added.
 
-| transport | port | service | service description |
-| --- | --- | --- | --- |
-| `transport` | `dest_port` | **`dest_svc`** | **`dest_svc_description`** |
-| `transport` | `src_port` | **`src_svc`** | **`src_svc_description`** |
+| transport | port | | service | service description |
+| :--- | :--- | :---: | :--- | :--- |
+| `transport` | `dest_port` | &rarr; | **`dest_svc`** | **`dest_svc_description`** |
+| `transport` | `src_port` | &rarr; | **`src_svc`** | **`src_svc_description`** |
+
+The `dest_svc` or `src_svc` field is the IANA service name for the port in question and follows the naming convention recommended for the Network CIM.
+The `dest_svc_description` or `src_svc_description` field is the IANA description of the service.
 
 ## Prerequisites and Dependencies
 
