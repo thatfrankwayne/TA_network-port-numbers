@@ -3,10 +3,10 @@
 0,udp,"",Reserved
 1,tcp,tcpmux,"TCP Port Service Multiplexer"
 1,udp,tcpmux,"TCP Port Service Multiplexer"
-2,tcp,compressnet,"Management Utility"
-2,udp,compressnet,"Management Utility"
-3,tcp,compressnet,"Compression Process"
-3,udp,compressnet,"Compression Process"
+2,tcp,"",Reserved
+2,udp,"",Reserved
+3,tcp,"",Reserved
+3,udp,"",Reserved
 5,tcp,rje,"Remote Job Entry"
 5,udp,rje,"Remote Job Entry"
 7,tcp,echo,Echo
@@ -97,14 +97,14 @@
 61,udp,"",Reserved
 62,tcp,acas,"ACA Services"
 62,udp,acas,"ACA Services"
-63,tcp,whoispp,"whois++ IANA assigned this well-formed service name as a replacement for "
-63,udp,whoispp,"whois++ IANA assigned this well-formed service name as a replacement for "
+63,tcp,whoispp,"whois++Formerly whois++."
+63,udp,whoispp,"whois++Formerly whois++."
 64,tcp,covia,"Communications Integrator (CI)"
 64,udp,covia,"Communications Integrator (CI)"
 65,tcp,"tacacs-ds","TACACS-Database Service"
 65,udp,"tacacs-ds","TACACS-Database Service"
-66,tcp,"sql-net","Oracle SQL*NET IANA assigned this well-formed service name as a replacement for "
-66,udp,"sql-net","Oracle SQL*NET IANA assigned this well-formed service name as a replacement for "
+66,tcp,"sql-net","Oracle SQL*NETFormerly sql*net."
+66,udp,"sql-net","Oracle SQL*NETFormerly sql*net."
 67,tcp,bootps,"Bootstrap Protocol Server"
 67,udp,bootps,"Bootstrap Protocol Server"
 68,tcp,bootpc,"Bootstrap Protocol Client"
@@ -310,8 +310,8 @@
 170,udp,"print-srv","Network PostScript"
 171,tcp,multiplex,"Network Innovations Multiplex"
 171,udp,multiplex,"Network Innovations Multiplex"
-172,tcp,"cl-1","Network Innovations CL/1 IANA assigned this well-formed service name as a replacement for "
-172,udp,"cl-1","Network Innovations CL/1 IANA assigned this well-formed service name as a replacement for "
+172,tcp,"cl-1","Network Innovations CL/1Formerly cl/1."
+172,udp,"cl-1","Network Innovations CL/1Formerly cl/1."
 173,tcp,"xyplex-mux",Xyplex
 173,udp,"xyplex-mux",Xyplex
 174,tcp,mailq,MAILQ
@@ -387,10 +387,10 @@
 208,udp,"at-8","AppleTalk Unused"
 209,tcp,qmtp,"The Quick Mail Transfer Protocol"
 209,udp,qmtp,"The Quick Mail Transfer Protocol"
-210,tcp,"z39-50","ANSI Z39.50 IANA assigned this well-formed service name as a replacement for "
-210,udp,"z39-50","ANSI Z39.50 IANA assigned this well-formed service name as a replacement for "
-211,tcp,"914c-g","Texas Instruments 914C/G Terminal IANA assigned this well-formed service name as a replacement for "
-211,udp,"914c-g","Texas Instruments 914C/G Terminal IANA assigned this well-formed service name as a replacement for "
+210,tcp,"z39-50","ANSI Z39.50Formerly z39.50."
+210,udp,"z39-50","ANSI Z39.50Formerly z39.50."
+211,tcp,"914c-g","Texas Instruments 914C/G TerminalFormerly 914c/g."
+211,udp,"914c-g","Texas Instruments 914C/G TerminalFormerly 914c/g."
 212,tcp,anet,ATEXSSTR
 212,udp,anet,ATEXSSTR
 213,tcp,ipx,IPX
@@ -427,8 +427,8 @@
 245,udp,link,LINK
 246,tcp,dsp3270,"Display Systems Protocol"
 246,udp,dsp3270,"Display Systems Protocol"
-247,tcp,"subntbcst-tftp","SUBNTBCST_TFTP IANA assigned this well-formed service name as a replacement for "
-247,udp,"subntbcst-tftp","SUBNTBCST_TFTP IANA assigned this well-formed service name as a replacement for "
+247,tcp,"subntbcst-tftp","SUBNTBCST_TFTPFormerly subntbcst_tftp."
+247,udp,"subntbcst-tftp","SUBNTBCST_TFTPFormerly subntbcst_tftp."
 248,tcp,bhfhs,bhfhs
 248,udp,bhfhs,bhfhs
 256,tcp,rap,RAP
@@ -475,6 +475,8 @@
 286,udp,fxp,"FXP Communication"
 287,tcp,"k-block","K-BLOCK"
 287,udp,"k-block","K-BLOCK"
+300,tcp,tacacss,"TLS Secure Login Host Protocol (TACACSS)"
+300,udp,"",Reserved
 308,tcp,novastorbakcup,"Novastor Backup"
 308,udp,novastorbakcup,"Novastor Backup"
 309,tcp,entrusttime,EntrustTime
@@ -549,8 +551,8 @@
 361,udp,semantix,Semantix
 362,tcp,srssend,"SRS Send"
 362,udp,srssend,"SRS Send"
-363,tcp,"rsvp-tunnel","RSVP Tunnel IANA assigned this well-formed service name as a replacement for "
-363,udp,"rsvp-tunnel","RSVP Tunnel IANA assigned this well-formed service name as a replacement for "
+363,tcp,"rsvp-tunnel","RSVP TunnelFormerly rsvp_tunnel."
+363,udp,"rsvp-tunnel","RSVP TunnelFormerly rsvp_tunnel."
 364,tcp,"aurora-cmgr","Aurora CMGR"
 364,udp,"aurora-cmgr","Aurora CMGR"
 365,tcp,dtk,DTK
@@ -679,10 +681,10 @@
 426,udp,smartsdp,smartsdp
 427,tcp,svrloc,"Server Location"
 427,udp,svrloc,"Server Location"
-428,tcp,"ocs-cmu","OCS_CMU IANA assigned this well-formed service name as a replacement for "
-428,udp,"ocs-cmu","OCS_CMU IANA assigned this well-formed service name as a replacement for "
-429,tcp,"ocs-amu","OCS_AMU IANA assigned this well-formed service name as a replacement for "
-429,udp,"ocs-amu","OCS_AMU IANA assigned this well-formed service name as a replacement for "
+428,tcp,"ocs-cmu","OCS_CMUFormerly ocs_cmu."
+428,udp,"ocs-cmu","OCS_CMUFormerly ocs_cmu."
+429,tcp,"ocs-amu","OCS_AMUFormerly ocs_amu."
+429,udp,"ocs-amu","OCS_AMUFormerly ocs_amu."
 430,tcp,utmpsd,UTMPSD
 430,udp,utmpsd,UTMPSD
 431,tcp,utmpcd,UTMPCD
@@ -707,8 +709,8 @@
 440,udp,sgcp,sgcp
 441,tcp,"decvms-sysmgt","decvms-sysmgt"
 441,udp,"decvms-sysmgt","decvms-sysmgt"
-442,tcp,"cvc-hostd","cvc_hostd IANA assigned this well-formed service name as a replacement for "
-442,udp,"cvc-hostd","cvc_hostd IANA assigned this well-formed service name as a replacement for "
+442,tcp,"cvc-hostd","cvc_hostdFormerly cvc_hostd."
+442,udp,"cvc-hostd","cvc_hostdFormerly cvc_hostd."
 443,sctp,https,HTTPS
 443,tcp,https,"http protocol over TLS/SSL"
 443,udp,https,"http protocol over TLS/SSL"
@@ -850,7 +852,7 @@
 511,udp,passgo,PassGo
 512,tcp,exec,"remote process execution; authentication performed using passwords and UNIX login names"
 512,udp,comsat,""
-513,tcp,login,"remote login a la telnet; automatic authentication performed based on priviledged port numbers and distributed data bases which identify "
+513,tcp,login,"remote login a la telnet; automatic authentication performed based on priviledged port numbers and distributed data bases which identify authentication domains"
 513,udp,who,"maintains data bases showing who's logged in to machines on a local net and the load average of the machine"
 514,tcp,shell,"cmd like exec, but automatic authentication is performed as for login server"
 514,udp,syslog,""
@@ -1072,8 +1074,8 @@
 623,udp,"asf-rmcp","ASF Remote Management and Control Protocol"
 624,tcp,cryptoadmin,"Crypto Admin"
 624,udp,cryptoadmin,"Crypto Admin"
-625,tcp,"dec-dlm","DEC DLM IANA assigned this well-formed service name as a replacement for "
-625,udp,"dec-dlm","DEC DLM IANA assigned this well-formed service name as a replacement for "
+625,tcp,"dec-dlm","DEC DLMFormerly dec_dlm."
+625,udp,"dec-dlm","DEC DLMFormerly dec_dlm."
 626,tcp,asia,ASIA
 626,udp,asia,ASIA
 627,tcp,"passgo-tivoli","PassGo Tivoli"
@@ -1306,17 +1308,17 @@
 773,tcp,submit,""
 773,udp,notify,""
 774,tcp,rpasswd,""
-774,udp,"acmaint-dbd","IANA assigned this well-formed service name as a replacement for "
+774,udp,"acmaint-dbd","Formerly acmaint_dbd."
 775,tcp,entomb,""
-775,udp,"acmaint-transd","IANA assigned this well-formed service name as a replacement for "
+775,udp,"acmaint-transd","Formerly acmaint_transd."
 776,tcp,wpages,""
 776,udp,wpages,""
 777,tcp,"multiling-http","Multiling HTTP"
 777,udp,"multiling-http","Multiling HTTP"
 780,tcp,wpgs,""
 780,udp,wpgs,""
-800,tcp,"mdbs-daemon","IANA assigned this well-formed service name as a replacement for "
-800,udp,"mdbs-daemon","IANA assigned this well-formed service name as a replacement for "
+800,tcp,"mdbs-daemon","Formerly mdbs_daemon."
+800,udp,"mdbs-daemon","Formerly mdbs_daemon."
 801,tcp,device,""
 801,udp,device,""
 802,tcp,"mbap-s","Modbus Application Protocol Secure"
@@ -1329,12 +1331,12 @@
 829,udp,"pkix-3-ca-ra","PKIX-3 CA/RA"
 830,tcp,"netconf-ssh","NETCONF over SSH"
 830,udp,"netconf-ssh","NETCONF over SSH"
-831,tcp,"netconf-beep","NETCONF over BEEP"
-831,udp,"netconf-beep","NETCONF over BEEP"
-832,tcp,netconfsoaphttp,"NETCONF for SOAP over HTTPS"
-832,udp,netconfsoaphttp,"NETCONF for SOAP over HTTPS"
-833,tcp,netconfsoapbeep,"NETCONF for SOAP over BEEP"
-833,udp,netconfsoapbeep,"NETCONF for SOAP over BEEP"
+831,tcp,"",Reserved
+831,udp,"",Reserved
+832,tcp,"",Reserved
+832,udp,"",Reserved
+833,tcp,"",Reserved
+833,udp,"",Reserved
 847,tcp,"dhcp-failover2","dhcp-failover 2"
 847,udp,"dhcp-failover2","dhcp-failover 2"
 848,tcp,gdoi,GDOI
@@ -1353,8 +1355,8 @@
 873,udp,rsync,rsync
 886,tcp,"iclcnet-locate","ICL coNETion locate server"
 886,udp,"iclcnet-locate","ICL coNETion locate server"
-887,tcp,"iclcnet-svinfo","ICL coNETion server info IANA assigned this well-formed service name as a replacement for "
-887,udp,"iclcnet-svinfo","ICL coNETion server info IANA assigned this well-formed service name as a replacement for "
+887,tcp,"iclcnet-svinfo","ICL coNETion server infoFormerly iclcnet_svinfo."
+887,udp,"iclcnet-svinfo","ICL coNETion server infoFormerly iclcnet_svinfo."
 888,tcp,accessbuilder,AccessBuilder
 888,udp,accessbuilder,AccessBuilder
 900,tcp,omginitialrefs,"OMG Initial Refs"
@@ -1374,9 +1376,9 @@
 913,tcp,"apex-edge","APEX endpoint-relay service"
 913,udp,"apex-edge","APEX endpoint-relay service"
 914,tcp,"",Reserved
-914,udp,"rift-lies","Routing in Fat Trees Link Information Elements (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)"
+914,udp,"rift-lies","Routing in Fat Trees Link Information Element"
 915,tcp,"",Reserved
-915,udp,"rift-ties","Routing in Fat Trees Topology Information Elements (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)"
+915,udp,"rift-ties","Routing in Fat Trees Topology Information Element"
 953,tcp,rndc,"BIND9 remote name daemon controller"
 953,udp,"",Reserved
 989,tcp,"ftps-data","ftp protocol, data, over TLS/SSL"
@@ -1496,10 +1498,10 @@
 1065,udp,syscomlan,SYSCOMLAN
 1066,tcp,"fpo-fns","FPO-FNS"
 1066,udp,"fpo-fns","FPO-FNS"
-1067,tcp,"instl-boots","Installation Bootstrap Proto. Serv. IANA assigned this well-formed service name as a replacement for "
-1067,udp,"instl-boots","Installation Bootstrap Proto. Serv. IANA assigned this well-formed service name as a replacement for "
-1068,tcp,"instl-bootc","Installation Bootstrap Proto. Cli. IANA assigned this well-formed service name as a replacement for "
-1068,udp,"instl-bootc","Installation Bootstrap Proto. Cli. IANA assigned this well-formed service name as a replacement for "
+1067,tcp,"instl-boots","Installation Bootstrap Proto. Serv.Formerly instl_boots."
+1067,udp,"instl-boots","Installation Bootstrap Proto. Serv.Formerly instl_boots."
+1068,tcp,"instl-bootc","Installation Bootstrap Proto. Cli.Formerly instl_bootc."
+1068,udp,"instl-bootc","Installation Bootstrap Proto. Cli.Formerly instl_bootc."
 1069,tcp,"cognex-insight","COGNEX-INSIGHT"
 1069,udp,"cognex-insight","COGNEX-INSIGHT"
 1070,tcp,gmrupdateserv,GMRUpdateSERV
@@ -1637,8 +1639,8 @@
 1136,udp,"hhb-gateway","HHB Gateway Control"
 1137,tcp,trim,"TRIM Workgroup Service"
 1137,udp,trim,"TRIM Workgroup Service"
-1138,tcp,"encrypted-admin","encrypted admin requests IANA assigned this well-formed service name as a replacement for "
-1138,udp,"encrypted-admin","encrypted admin requests IANA assigned this well-formed service name as a replacement for "
+1138,tcp,"encrypted-admin","encrypted admin requestsFormerly encrypted_admin."
+1138,udp,"encrypted-admin","encrypted admin requestsFormerly encrypted_admin."
 1139,tcp,evm,"Enterprise Virtual Manager"
 1139,udp,evm,"Enterprise Virtual Manager"
 1140,tcp,autonoc,"AutoNOC Network Operations Protocol"
@@ -1988,8 +1990,8 @@
 1311,udp,rxmon,RxMon
 1312,tcp,"sti-envision","STI Envision"
 1312,udp,"sti-envision","STI Envision"
-1313,tcp,"bmc-patroldb","BMC_PATROLDB IANA assigned this well-formed service name as a replacement for "
-1313,udp,"bmc-patroldb","BMC_PATROLDB IANA assigned this well-formed service name as a replacement for "
+1313,tcp,"bmc-patroldb","BMC_PATROLDBFormerly bmc_patroldb."
+1313,udp,"bmc-patroldb","BMC_PATROLDBFormerly bmc_patroldb."
 1314,tcp,pdps,"Photoscript Distributed Printing System"
 1314,udp,pdps,"Photoscript Distributed Printing System"
 1315,tcp,els,"E.L.S., Event Listener Service"
@@ -2012,8 +2014,8 @@
 1323,udp,brcd,brcd
 1324,tcp,"delta-mcp","delta-mcp"
 1324,udp,"delta-mcp","delta-mcp"
-1325,tcp,"dx-instrument","DX-Instrument"
-1325,udp,"dx-instrument","DX-Instrument"
+1325,tcp,"dx-instrument","Thermo Fisher Scientific Instrumentation (Formally Dionex)"
+1325,udp,"dx-instrument","Thermo Fisher Scientific Instrumentation (Formally Dionex)"
 1326,tcp,wimsic,WIMSIC
 1326,udp,wimsic,WIMSIC
 1327,tcp,ultrex,Ultrex
@@ -2126,14 +2128,14 @@
 1380,udp,"telesis-licman","Telesis Network License Manager"
 1381,tcp,"apple-licman","Apple Network License Manager"
 1381,udp,"apple-licman","Apple Network License Manager"
-1382,tcp,"udt-os","udt_os IANA assigned this well-formed service name as a replacement for "
-1382,udp,"udt-os","udt_os IANA assigned this well-formed service name as a replacement for "
+1382,tcp,"udt-os","udt_osFormerly udt_os."
+1382,udp,"udt-os","udt_osFormerly udt_os."
 1383,tcp,gwha,"GW Hannaway Network License Manager"
 1383,udp,gwha,"GW Hannaway Network License Manager"
 1384,tcp,"os-licman","Objective Solutions License Manager"
 1384,udp,"os-licman","Objective Solutions License Manager"
-1385,tcp,"atex-elmd","Atex Publishing License Manager IANA assigned this well-formed service name as a replacement for "
-1385,udp,"atex-elmd","Atex Publishing License Manager IANA assigned this well-formed service name as a replacement for "
+1385,tcp,"atex-elmd","Atex Publishing License ManagerFormerly atex_elmd."
+1385,udp,"atex-elmd","Atex Publishing License ManagerFormerly atex_elmd."
 1386,tcp,checksum,"CheckSum License Manager"
 1386,udp,checksum,"CheckSum License Manager"
 1387,tcp,"cadsi-lm","Computer Aided Design Software Inc LM"
@@ -2194,8 +2196,8 @@
 1414,udp,"ibm-mqseries","IBM MQSeries"
 1415,tcp,dbstar,DBStar
 1415,udp,dbstar,DBStar
-1416,tcp,"novell-lu6-2","Novell LU6.2 IANA assigned this well-formed service name as a replacement for "
-1416,udp,"novell-lu6-2","Novell LU6.2 IANA assigned this well-formed service name as a replacement for "
+1416,tcp,"novell-lu6-2","Novell LU6.2Formerly novell-lu6.2."
+1416,udp,"novell-lu6-2","Novell LU6.2Formerly novell-lu6.2."
 1417,tcp,"timbuktu-srv1","Timbuktu Service 1 Port"
 1417,udp,"timbuktu-srv1","Timbuktu Service 1 Port"
 1418,tcp,"timbuktu-srv2","Timbuktu Service 2 Port"
@@ -2270,8 +2272,8 @@
 1452,udp,"gtegsc-lm","GTE Government Systems License Man"
 1453,tcp,"genie-lm","Genie License Manager"
 1453,udp,"genie-lm","Genie License Manager"
-1454,tcp,"interhdl-elmd","interHDL License Manager IANA assigned this well-formed service name as a replacement for "
-1454,udp,"interhdl-elmd","interHDL License Manager IANA assigned this well-formed service name as a replacement for "
+1454,tcp,"interhdl-elmd","interHDL License ManagerFormerly interhdl_elmd."
+1454,udp,"interhdl-elmd","interHDL License ManagerFormerly interhdl_elmd."
 1455,tcp,"esl-lm","ESL License Manager"
 1455,udp,"esl-lm","ESL License Manager"
 1456,tcp,dca,DCA
@@ -2284,14 +2286,14 @@
 1459,udp,proshare1,"Proshare Notebook Application"
 1460,tcp,proshare2,"Proshare Notebook Application"
 1460,udp,proshare2,"Proshare Notebook Application"
-1461,tcp,"ibm-wrless-lan","IBM Wireless LAN IANA assigned this well-formed service name as a replacement for "
-1461,udp,"ibm-wrless-lan","IBM Wireless LAN IANA assigned this well-formed service name as a replacement for "
+1461,tcp,"ibm-wrless-lan","IBM Wireless LANFormerly ibm_wrless_lan."
+1461,udp,"ibm-wrless-lan","IBM Wireless LANFormerly ibm_wrless_lan."
 1462,tcp,"world-lm","World License Manager"
 1462,udp,"world-lm","World License Manager"
 1463,tcp,nucleus,Nucleus
 1463,udp,nucleus,Nucleus
-1464,tcp,"msl-lmd","MSL License Manager IANA assigned this well-formed service name as a replacement for "
-1464,udp,"msl-lmd","MSL License Manager IANA assigned this well-formed service name as a replacement for "
+1464,tcp,"msl-lmd","MSL License ManagerFormerly msl_lmd."
+1464,udp,"msl-lmd","MSL License ManagerFormerly msl_lmd."
 1465,tcp,pipes,"Pipes Platform"
 1465,udp,pipes,"Pipes Platform"
 1466,tcp,"oceansoft-lm","Ocean Software License Manager"
@@ -2334,8 +2336,8 @@
 1484,udp,confluent,"Confluent License Manager"
 1485,tcp,lansource,LANSource
 1485,udp,lansource,LANSource
-1486,tcp,"nms-topo-serv","nms_topo_serv IANA assigned this well-formed service name as a replacement for "
-1486,udp,"nms-topo-serv","nms_topo_serv IANA assigned this well-formed service name as a replacement for "
+1486,tcp,"nms-topo-serv","nms_topo_servFormerly nms_topo_serv."
+1486,udp,"nms-topo-serv","nms_topo_servFormerly nms_topo_serv."
 1487,tcp,localinfosrvr,LocalInfoSrvr
 1487,udp,localinfosrvr,LocalInfoSrvr
 1488,tcp,docstor,DocStor
@@ -2346,8 +2348,8 @@
 1490,udp,"insitu-conf","insitu-conf"
 1492,tcp,"stone-design-1","stone-design-1"
 1492,udp,"stone-design-1","stone-design-1"
-1493,tcp,"netmap-lm","netmap_lm IANA assigned this well-formed service name as a replacement for "
-1493,udp,"netmap-lm","netmap_lm IANA assigned this well-formed service name as a replacement for "
+1493,tcp,"netmap-lm","netmap_lmFormerly netmap_lm."
+1493,udp,"netmap-lm","netmap_lmFormerly netmap_lm."
 1494,tcp,ica,ica
 1494,udp,ica,ica
 1495,tcp,cvc,cvc
@@ -2473,8 +2475,8 @@
 1554,udp,"caci-lm","CACI Products Company License Manager"
 1555,tcp,livelan,livelan
 1555,udp,livelan,livelan
-1556,tcp,"veritas-pbx","VERITAS Private Branch Exchange IANA assigned this well-formed service name as a replacement for "
-1556,udp,"veritas-pbx","VERITAS Private Branch Exchange IANA assigned this well-formed service name as a replacement for "
+1556,tcp,"veritas-pbx","VERITAS Private Branch ExchangeFormerly veritas_pbx."
+1556,udp,"veritas-pbx","VERITAS Private Branch ExchangeFormerly veritas_pbx."
 1557,tcp,"arbortext-lm","ArborText License Manager"
 1557,udp,"arbortext-lm","ArborText License Manager"
 1558,tcp,xingmpeg,xingmpeg
@@ -2535,8 +2537,8 @@
 1585,udp,intv,intv
 1586,tcp,"ibm-abtact","ibm-abtact"
 1586,udp,"ibm-abtact","ibm-abtact"
-1587,tcp,"pra-elmd","pra_elmd IANA assigned this well-formed service name as a replacement for "
-1587,udp,"pra-elmd","pra_elmd IANA assigned this well-formed service name as a replacement for "
+1587,tcp,"pra-elmd","pra_elmdFormerly pra_elmd."
+1587,udp,"pra-elmd","pra_elmdFormerly pra_elmd."
 1588,tcp,"triquest-lm","triquest-lm"
 1588,udp,"triquest-lm","triquest-lm"
 1589,tcp,vqp,VQP
@@ -2663,8 +2665,8 @@
 1649,udp,kermit,kermit
 1650,tcp,nkd,nkdn
 1650,udp,nkd,nkd
-1651,tcp,"shiva-confsrvr","shiva_confsrvr IANA assigned this well-formed service name as a replacement for "
-1651,udp,"shiva-confsrvr","shiva_confsrvr IANA assigned this well-formed service name as a replacement for "
+1651,tcp,"shiva-confsrvr","shiva_confsrvrFormerly shiva_confsrvr."
+1651,udp,"shiva-confsrvr","shiva_confsrvrFormerly shiva_confsrvr."
 1652,tcp,xnmp,xnmp
 1652,udp,xnmp,xnmp
 1653,tcp,"alphatech-lm","alphatech-lm"
@@ -2990,8 +2992,8 @@
 1813,udp,"radius-acct","RADIUS Accounting"
 1814,tcp,"tdp-suite","TDP Suite"
 1814,udp,"tdp-suite","TDP Suite"
-1815,tcp,mmpft,MMPFT
-1815,udp,mmpft,MMPFT
+1815,tcp,mmpft,"Manufacturing messaging protocol for factory transmission"
+1815,udp,mmpft,"Manufacturing messaging protocol for factory transmission"
 1816,tcp,harp,HARP
 1816,udp,harp,HARP
 1817,tcp,"rkb-oscs","RKB-OSCS"
@@ -3320,8 +3322,8 @@
 1978,udp,unisql,UniSQL
 1979,tcp,"unisql-java","UniSQL Java"
 1979,udp,"unisql-java","UniSQL Java"
-1980,tcp,"pearldoc-xact","PearlDoc XACT"
-1980,udp,"pearldoc-xact","PearlDoc XACT"
+1980,tcp,"panquest-xact","PanQuest XACT"
+1980,udp,"panquest-xact","PanQuest XACT"
 1981,tcp,p2pq,p2pQ
 1981,udp,p2pq,p2pQ
 1982,tcp,estamp,"Evidentiary Timestamp"
@@ -3381,7 +3383,7 @@
 2009,tcp,news,""
 2009,udp,whosockami,""
 2010,tcp,search,""
-2010,udp,"pipe-server","IANA assigned this well-formed service name as a replacement for "
+2010,udp,"pipe-server","Formerly pipe_server."
 2011,tcp,"raid-cc",raid
 2011,udp,servserv,""
 2012,tcp,ttyinfo,""
@@ -3799,8 +3801,8 @@
 2220,udp,netiq,"NetIQ End2End"
 2221,tcp,"ethernet-ip-s","EtherNet/IP over TLS"
 2221,udp,"ethernet-ip-s","EtherNet/IP over DTLS"
-2222,tcp,"EtherNet-IP-1","EtherNet/IP I/O IANA assigned this well-formed service name as a replacement for "
-2222,udp,"EtherNet-IP-1","EtherNet/IP I/O IANA assigned this well-formed service name as a replacement for "
+2222,tcp,"EtherNet-IP-1","EtherNet/IP I/OFormerly EtherNet/IP-1."
+2222,udp,"EtherNet-IP-1","EtherNet/IP I/OFormerly EtherNet/IP-1."
 2223,tcp,"rockwell-csp2","Rockwell CSP2"
 2223,udp,"rockwell-csp2","Rockwell CSP2"
 2224,tcp,"efi-mg","Easy Flexible Internet/Multiplayer Games"
@@ -4036,8 +4038,8 @@
 2338,udp,"norton-lambert","Norton Lambert"
 2339,tcp,"3com-webview","3Com WebView"
 2339,udp,"3com-webview","3Com WebView"
-2340,tcp,"wrs-registry","WRS Registry IANA assigned this well-formed service name as a replacement for "
-2340,udp,"wrs-registry","WRS Registry IANA assigned this well-formed service name as a replacement for "
+2340,tcp,"wrs-registry","WRS RegistryFormerly wrs_registry."
+2340,udp,"wrs-registry","WRS RegistryFormerly wrs_registry."
 2341,tcp,xiostatus,"XIO Status"
 2341,udp,xiostatus,"XIO Status"
 2342,tcp,"manage-exec","Seagate Manage Exec"
@@ -4048,14 +4050,14 @@
 2344,udp,fcmsys,fcmsys
 2345,tcp,dbm,dbm
 2345,udp,dbm,dbm
-2346,tcp,"redstorm-join","Game Connection Port IANA assigned this well-formed service name as a replacement for "
-2346,udp,"redstorm-join","Game Connection Port IANA assigned this well-formed service name as a replacement for "
-2347,tcp,"redstorm-find","Game Announcement and Location IANA assigned this well-formed service name as a replacement for "
-2347,udp,"redstorm-find","Game Announcement and Location IANA assigned this well-formed service name as a replacement for "
-2348,tcp,"redstorm-info","Information to query for game status IANA assigned this well-formed service name as a replacement for "
-2348,udp,"redstorm-info","Information to query for game status IANA assigned this well-formed service name as a replacement for "
-2349,tcp,"redstorm-diag","Diagnostics Port IANA assigned this well-formed service name as a replacement for "
-2349,udp,"redstorm-diag","Diagnostics Port IANA assigned this well-formed service name as a replacement for "
+2346,tcp,"redstorm-join","Game Connection PortFormerly redstorm_join."
+2346,udp,"redstorm-join","Game Connection PortFormerly redstorm_join."
+2347,tcp,"redstorm-find","Game Announcement and LocationFormerly redstorm_find."
+2347,udp,"redstorm-find","Game Announcement and LocationFormerly redstorm_find."
+2348,tcp,"redstorm-info","Information to query for game statusFormerly redstorm_info."
+2348,udp,"redstorm-info","Information to query for game statusFormerly redstorm_info."
+2349,tcp,"redstorm-diag","Diagnostics PortFormerly redstorm_diag."
+2349,udp,"redstorm-diag","Diagnostics PortFormerly redstorm_diag."
 2350,tcp,psbserver,"Pharos Booking Server"
 2350,udp,psbserver,"Pharos Booking Server"
 2351,tcp,psrserver,psrserver
@@ -4145,8 +4147,8 @@
 2393,udp,"ms-olap1","MS OLAP 1"
 2394,tcp,"ms-olap2","MS OLAP 2"
 2394,udp,"ms-olap2","MS OLAP 2"
-2395,tcp,"lan900-remote","LAN900 Remote IANA assigned this well-formed service name as a replacement for "
-2395,udp,"lan900-remote","LAN900 Remote IANA assigned this well-formed service name as a replacement for "
+2395,tcp,"lan900-remote","LAN900 RemoteFormerly lan900_remote."
+2395,udp,"lan900-remote","LAN900 RemoteFormerly lan900_remote."
 2396,tcp,wusage,Wusage
 2396,udp,wusage,Wusage
 2397,tcp,ncl,NCL
@@ -4247,8 +4249,8 @@
 2444,udp,btpp2sectrans,"BT PP2 Sectrans"
 2445,tcp,dtn1,DTN1
 2445,udp,dtn1,DTN1
-2446,tcp,"bues-service","bues_service IANA assigned this well-formed service name as a replacement for "
-2446,udp,"bues-service","bues_service IANA assigned this well-formed service name as a replacement for "
+2446,tcp,"bues-service","bues_serviceFormerly bues_service."
+2446,udp,"bues-service","bues_serviceFormerly bues_service."
 2447,tcp,ovwdb,"OpenView NNM daemon"
 2447,udp,ovwdb,"OpenView NNM daemon"
 2448,tcp,hpppssvr,hpppsvr
@@ -4411,8 +4413,8 @@
 2526,udp,"ema-sent-lm","EMA License Manager"
 2527,tcp,iqserver,"IQ Server"
 2527,udp,iqserver,"IQ Server"
-2528,tcp,"ncr-ccl","NCR CCL IANA assigned this well-formed service name as a replacement for "
-2528,udp,"ncr-ccl","NCR CCL IANA assigned this well-formed service name as a replacement for "
+2528,tcp,"ncr-ccl","NCR CCLFormerly ncr_ccl."
+2528,udp,"ncr-ccl","NCR CCLFormerly ncr_ccl."
 2529,tcp,utsftp,"UTS FTP"
 2529,udp,utsftp,"UTS FTP"
 2530,tcp,vrcommerce,"VR Commerce"
@@ -4663,8 +4665,8 @@
 2652,udp,interpathpanel,InterPathPanel
 2653,tcp,sonus,Sonus
 2653,udp,sonus,Sonus
-2654,tcp,"corel-vncadmin","Corel VNC Admin IANA assigned this well-formed service name as a replacement for "
-2654,udp,"corel-vncadmin","Corel VNC Admin IANA assigned this well-formed service name as a replacement for "
+2654,tcp,"corel-vncadmin","Corel VNC AdminFormerly corel_vncadmin."
+2654,udp,"corel-vncadmin","Corel VNC AdminFormerly corel_vncadmin."
 2655,tcp,unglue,"UNIX Nt Glue"
 2655,udp,unglue,"UNIX Nt Glue"
 2656,tcp,kana,Kana
@@ -4939,6 +4941,8 @@
 2792,udp,"f5-globalsite","f5-globalsite"
 2793,tcp,initlsmsad,initlsmsad
 2793,udp,initlsmsad,initlsmsad
+2794,tcp,urp,"Uniform Resource Platform"
+2794,udp,urp,"Uniform Resource Platform"
 2795,tcp,livestats,LiveStats
 2795,udp,livestats,LiveStats
 2796,tcp,"ac-tech","ac-tech"
@@ -5181,10 +5185,10 @@
 2914,udp,gamelobby,"Game Lobby"
 2915,tcp,tksocket,"TK Socket"
 2915,udp,tksocket,"TK Socket"
-2916,tcp,"elvin-server","Elvin Server IANA assigned this well-formed service name as a replacement for "
-2916,udp,"elvin-server","Elvin Server IANA assigned this well-formed service name as a replacement for "
-2917,tcp,"elvin-client","Elvin Client IANA assigned this well-formed service name as a replacement for "
-2917,udp,"elvin-client","Elvin Client IANA assigned this well-formed service name as a replacement for "
+2916,tcp,"elvin-server","Elvin ServerFormerly elvin_server."
+2916,udp,"elvin-server","Elvin ServerFormerly elvin_server."
+2917,tcp,"elvin-client","Elvin ClientFormerly elvin_client."
+2917,udp,"elvin-client","Elvin ClientFormerly elvin_client."
 2918,tcp,kastenchasepad,"Kasten Chase Pad"
 2918,udp,kastenchasepad,"Kasten Chase Pad"
 2919,tcp,roboer,roboER
@@ -5377,18 +5381,18 @@
 3012,udp,twsdss,"Trusted Web Client"
 3013,tcp,gilatskysurfer,"Gilat Sky Surfer"
 3013,udp,gilatskysurfer,"Gilat Sky Surfer"
-3014,tcp,"broker-service","Broker Service IANA assigned this well-formed service name as a replacement for "
-3014,udp,"broker-service","Broker Service IANA assigned this well-formed service name as a replacement for "
+3014,tcp,"broker-service","Broker ServiceFormerly broker_service."
+3014,udp,"broker-service","Broker ServiceFormerly broker_service."
 3015,tcp,"nati-dstp","NATI DSTP"
 3015,udp,"nati-dstp","NATI DSTP"
-3016,tcp,"notify-srvr","Notify Server IANA assigned this well-formed service name as a replacement for "
-3016,udp,"notify-srvr","Notify Server IANA assigned this well-formed service name as a replacement for "
-3017,tcp,"event-listener","Event Listener IANA assigned this well-formed service name as a replacement for "
-3017,udp,"event-listener","Event Listener IANA assigned this well-formed service name as a replacement for "
-3018,tcp,"srvc-registry","Service Registry IANA assigned this well-formed service name as a replacement for "
-3018,udp,"srvc-registry","Service Registry IANA assigned this well-formed service name as a replacement for "
-3019,tcp,"resource-mgr","Resource Manager IANA assigned this well-formed service name as a replacement for "
-3019,udp,"resource-mgr","Resource Manager IANA assigned this well-formed service name as a replacement for "
+3016,tcp,"notify-srvr","Notify ServerFormerly notify_srvr."
+3016,udp,"notify-srvr","Notify ServerFormerly notify_srvr."
+3017,tcp,"event-listener","Event ListenerFormerly event_listener."
+3017,udp,"event-listener","Event ListenerFormerly event_listener."
+3018,tcp,"srvc-registry","Service RegistryFormerly srvc_registry."
+3018,udp,"srvc-registry","Service RegistryFormerly srvc_registry."
+3019,tcp,"resource-mgr","Resource ManagerFormerly resource_mgr."
+3019,udp,"resource-mgr","Resource ManagerFormerly resource_mgr."
 3020,tcp,cifs,CIFS
 3020,udp,cifs,CIFS
 3021,tcp,agriserver,"AGRI Server"
@@ -5397,18 +5401,18 @@
 3022,udp,csregagent,CSREGAGENT
 3023,tcp,magicnotes,magicnotes
 3023,udp,magicnotes,magicnotes
-3024,tcp,"nds-sso","NDS_SSO IANA assigned this well-formed service name as a replacement for "
-3024,udp,"nds-sso","NDS_SSO IANA assigned this well-formed service name as a replacement for "
+3024,tcp,"nds-sso","NDS_SSOFormerly nds_sso."
+3024,udp,"nds-sso","NDS_SSOFormerly nds_sso."
 3025,tcp,"arepa-raft","Arepa Raft"
 3025,udp,"arepa-raft","Arepa Raft"
 3026,tcp,"agri-gateway","AGRI Gateway"
 3026,udp,"agri-gateway","AGRI Gateway"
-3027,tcp,"LiebDevMgmt-C","LiebDevMgmt_C IANA assigned this well-formed service name as a replacement for "
-3027,udp,"LiebDevMgmt-C","LiebDevMgmt_C IANA assigned this well-formed service name as a replacement for "
-3028,tcp,"LiebDevMgmt-DM","LiebDevMgmt_DM IANA assigned this well-formed service name as a replacement for "
-3028,udp,"LiebDevMgmt-DM","LiebDevMgmt_DM IANA assigned this well-formed service name as a replacement for "
-3029,tcp,"LiebDevMgmt-A","LiebDevMgmt_A IANA assigned this well-formed service name as a replacement for "
-3029,udp,"LiebDevMgmt-A","LiebDevMgmt_A IANA assigned this well-formed service name as a replacement for "
+3027,tcp,"LiebDevMgmt-C","LiebDevMgmt_CFormerly LiebDevMgmt_C."
+3027,udp,"LiebDevMgmt-C","LiebDevMgmt_CFormerly LiebDevMgmt_C."
+3028,tcp,"LiebDevMgmt-DM","LiebDevMgmt_DMFormerly LiebDevMgmt_DM."
+3028,udp,"LiebDevMgmt-DM","LiebDevMgmt_DMFormerly LiebDevMgmt_DM."
+3029,tcp,"LiebDevMgmt-A","LiebDevMgmt_AFormerly LiebDevMgmt_A."
+3029,udp,"LiebDevMgmt-A","LiebDevMgmt_AFormerly LiebDevMgmt_A."
 3030,tcp,"arepa-cas","Arepa Cas"
 3030,udp,"arepa-cas","Arepa Cas"
 3031,tcp,eppc,"Remote AppleEvents/PPC Toolbox"
@@ -5449,8 +5453,8 @@
 3048,udp,pctrader,"Sierra Net PC Trader"
 3049,tcp,nsws,NSWS
 3049,udp,nsws,NSWS
-3050,tcp,"gds-db","gds_db IANA assigned this well-formed service name as a replacement for "
-3050,udp,"gds-db","gds_db IANA assigned this well-formed service name as a replacement for "
+3050,tcp,"gds-db","gds_dbFormerly gds_db."
+3050,udp,"gds-db","gds_dbFormerly gds_db."
 3051,tcp,"galaxy-server","Galaxy Server"
 3051,udp,"galaxy-server","Galaxy Server"
 3052,tcp,"apc-3052","APC 3052"
@@ -5509,8 +5513,8 @@
 3078,udp,"orbix-cfg-ssl","Orbix 2000 Locator SSL"
 3079,tcp,"lv-frontpanel","LV Front Panel"
 3079,udp,"lv-frontpanel","LV Front Panel"
-3080,tcp,"stm-pproc","stm_pproc IANA assigned this well-formed service name as a replacement for "
-3080,udp,"stm-pproc","stm_pproc IANA assigned this well-formed service name as a replacement for "
+3080,tcp,"stm-pproc","stm_pprocFormerly stm_pproc."
+3080,udp,"stm-pproc","stm_pprocFormerly stm_pproc."
 3081,tcp,"tl1-lv","TL1-LV"
 3081,udp,"tl1-lv","TL1-LV"
 3082,tcp,"tl1-raw","TL1-RAW"
@@ -5912,8 +5916,8 @@
 3281,udp,sysopt,SYSOPT
 3282,tcp,datusorb,Datusorb
 3282,udp,datusorb,Datusorb
-3283,tcp,"Apple Remote Desktop (Net Assistant)","Net Assistant"
-3283,udp,"Apple Remote Desktop (Net Assistant)","Net Assistant"
+3283,tcp,"net-assistant","Net Assistant"
+3283,udp,"net-assistant","Net Assistant"
 3284,tcp,4talk,4Talk
 3284,udp,4talk,4Talk
 3285,tcp,plato,Plato
@@ -6120,8 +6124,8 @@
 3394,udp,"d2k-tapestry2","D2K Tapestry Server to Server"
 3395,tcp,"dyna-lm","Dyna License Manager (Elam)"
 3395,udp,"dyna-lm","Dyna License Manager (Elam)"
-3396,tcp,"printer-agent","Printer Agent IANA assigned this well-formed service name as a replacement for "
-3396,udp,"printer-agent","Printer Agent IANA assigned this well-formed service name as a replacement for "
+3396,tcp,"printer-agent","Printer AgentFormerly printer_agent."
+3396,udp,"printer-agent","Printer AgentFormerly printer_agent."
 3397,tcp,"cloanto-lm","Cloanto License Manager"
 3397,udp,"cloanto-lm","Cloanto License Manager"
 3398,tcp,mercantile,Mercantile
@@ -6681,8 +6685,8 @@
 3677,udp,roverlog,"RoverLog IPC"
 3678,tcp,"ipr-dglt",DataGuardianLT
 3678,udp,"ipr-dglt",DataGuardianLT
-3679,tcp,"Escale (Newton Dock)","Newton Dock"
-3679,udp,"Escale (Newton Dock)","Newton Dock"
+3679,tcp,"newton-dock","Newton Dock"
+3679,udp,"newton-dock","Newton Dock"
 3680,tcp,"npds-tracker","NPDS Tracker"
 3680,udp,"npds-tracker","NPDS Tracker"
 3681,tcp,"bts-x73","BTS X73 Port"
@@ -7076,8 +7080,8 @@
 3874,udp,sixxsconfig,"SixXS Configuration"
 3875,tcp,pnbscada,PNBSCADA
 3875,udp,pnbscada,PNBSCADA
-3876,tcp,"dl-agent","DirectoryLockdown Agent IANA assigned this well-formed service name as a replacement for "
-3876,udp,"dl-agent","DirectoryLockdown Agent IANA assigned this well-formed service name as a replacement for "
+3876,tcp,"dl-agent","DirectoryLockdown AgentFormerly dl_agent."
+3876,udp,"dl-agent","DirectoryLockdown AgentFormerly dl_agent."
 3877,tcp,"xmpcr-interface","XMPCR Interface Port"
 3877,udp,"xmpcr-interface","XMPCR Interface Port"
 3878,tcp,fotogcad,"FotoG CAD interface"
@@ -7124,8 +7128,8 @@
 3898,udp,senip,"IAS, Inc. SmartEye NET Internet Protocol"
 3899,tcp,"itv-control","ITV Port"
 3899,udp,"itv-control","ITV Port"
-3900,tcp,"udt-os","Unidata UDT OS IANA assigned this well-formed service name as a replacement for "
-3900,udp,"udt-os","Unidata UDT OS IANA assigned this well-formed service name as a replacement for "
+3900,tcp,"udt-os","Unidata UDT OSFormerly udt_os."
+3900,udp,"udt-os","Unidata UDT OSFormerly udt_os."
 3901,tcp,nimsh,"NIM Service Handler"
 3901,udp,nimsh,"NIM Service Handler"
 3902,tcp,nimaux,"NIMsh Auxiliary Port"
@@ -7200,8 +7204,8 @@
 3936,udp,mailprox,Mailprox
 3937,tcp,dvbservdsc,"DVB Service Discovery"
 3937,udp,dvbservdsc,"DVB Service Discovery"
-3938,tcp,"dbcontrol-agent","Oracle dbControl Agent po IANA assigned this well-formed service name as a replacement for "
-3938,udp,"dbcontrol-agent","Oracle dbControl Agent po IANA assigned this well-formed service name as a replacement for "
+3938,tcp,"dbcontrol-agent","Oracle dbControl Agent poFormerly dbcontrol_agent."
+3938,udp,"dbcontrol-agent","Oracle dbControl Agent poFormerly dbcontrol_agent."
 3939,tcp,aamp,"Anti-virus Application Management Port"
 3939,udp,aamp,"Anti-virus Application Management Port"
 3940,tcp,"xecp-node","XeCP Node Service"
@@ -7296,8 +7300,8 @@
 3984,udp,"mapper-nodemgr","MAPPER network node manager"
 3985,tcp,"mapper-mapethd","MAPPER TCP/IP server"
 3985,udp,"mapper-mapethd","MAPPER TCP/IP server"
-3986,tcp,"mapper-ws-ethd","MAPPER workstation server IANA assigned this well-formed service name as a replacement for "
-3986,udp,"mapper-ws-ethd","MAPPER workstation server IANA assigned this well-formed service name as a replacement for "
+3986,tcp,"mapper-ws-ethd","MAPPER workstation serverFormerly mapper-ws_ethd."
+3986,udp,"mapper-ws-ethd","MAPPER workstation serverFormerly mapper-ws_ethd."
 3987,tcp,centerline,Centerline
 3987,udp,centerline,Centerline
 3988,tcp,"dcs-config","DCS Configuration Port"
@@ -7440,8 +7444,8 @@
 4058,udp,kingfisher,"Kingfisher protocol"
 4059,tcp,"dlms-cosem","DLMS/COSEM"
 4059,udp,"dlms-cosem","DLMS/COSEM"
-4060,tcp,"dsmeter-iatc","DSMETER Inter-Agent Transfer Channel IANA assigned this well-formed service name as a replacement for "
-4060,udp,"dsmeter-iatc","DSMETER Inter-Agent Transfer Channel IANA assigned this well-formed service name as a replacement for "
+4060,tcp,"dsmeter-iatc","DSMETER Inter-Agent Transfer ChannelFormerly dsmeter_iatc."
+4060,udp,"dsmeter-iatc","DSMETER Inter-Agent Transfer ChannelFormerly dsmeter_iatc."
 4061,tcp,"ice-location","Ice Location Service (TCP)"
 4061,udp,"ice-location","Ice Location Service (TCP)"
 4062,tcp,"ice-slocation","Ice Location Service (SSL)"
@@ -7450,8 +7454,8 @@
 4063,udp,"ice-router","Ice Firewall Traversal Service (TCP)"
 4064,tcp,"ice-srouter","Ice Firewall Traversal Service (SSL)"
 4064,udp,"ice-srouter","Ice Firewall Traversal Service (SSL)"
-4065,tcp,"avanti-cdp","Avanti Common Data IANA assigned this well-formed service name as a replacement for "
-4065,udp,"avanti-cdp","Avanti Common Data IANA assigned this well-formed service name as a replacement for "
+4065,tcp,"avanti-cdp","Avanti Common DataFormerly avanti_cdp."
+4065,udp,"avanti-cdp","Avanti Common DataFormerly avanti_cdp."
 4066,tcp,pmas,"Performance Measurement and Analysis"
 4066,udp,pmas,"Performance Measurement and Analysis"
 4067,tcp,idp,"Information Distribution Protocol"
@@ -7584,10 +7588,10 @@
 4130,udp,fronet,"FRONET message protocol"
 4131,tcp,stars,"Global Maintech Stars"
 4131,udp,stars,"Global Maintech Stars"
-4132,tcp,"nuts-dem","NUTS Daemon IANA assigned this well-formed service name as a replacement for "
-4132,udp,"nuts-dem","NUTS Daemon IANA assigned this well-formed service name as a replacement for "
-4133,tcp,"nuts-bootp","NUTS Bootp Server IANA assigned this well-formed service name as a replacement for "
-4133,udp,"nuts-bootp","NUTS Bootp Server IANA assigned this well-formed service name as a replacement for "
+4132,tcp,"nuts-dem","NUTS DaemonFormerly nuts_dem."
+4132,udp,"nuts-dem","NUTS DaemonFormerly nuts_dem."
+4133,tcp,"nuts-bootp","NUTS Bootp ServerFormerly nuts_bootp."
+4133,udp,"nuts-bootp","NUTS Bootp ServerFormerly nuts_bootp."
 4134,tcp,"nifty-hmi","NIFTY-Serve HMI protocol"
 4134,udp,"nifty-hmi","NIFTY-Serve HMI protocol"
 4135,tcp,"cl-db-attach","Classic Line Database Server Attach"
@@ -7600,8 +7604,8 @@
 4138,udp,nettest,nettest
 4139,tcp,thrtx,"Imperfect Networks Server"
 4139,udp,thrtx,"Imperfect Networks Server"
-4140,tcp,"cedros-fds","Cedros Fraud Detection System IANA assigned this well-formed service name as a replacement for "
-4140,udp,"cedros-fds","Cedros Fraud Detection System IANA assigned this well-formed service name as a replacement for "
+4140,tcp,"cedros-fds","Cedros Fraud Detection SystemFormerly cedros_fds."
+4140,udp,"cedros-fds","Cedros Fraud Detection SystemFormerly cedros_fds."
 4141,tcp,oirtgsvc,"Workflow Server"
 4141,udp,oirtgsvc,"Workflow Server"
 4142,tcp,oidocsvc,"Document Server"
@@ -7620,10 +7624,10 @@
 4149,udp,agslb,"A10 GSLB Service"
 4150,tcp,"PowerAlert-nsa","PowerAlert Network Shutdown Agent"
 4150,udp,"PowerAlert-nsa","PowerAlert Network Shutdown Agent"
-4151,tcp,"menandmice-noh","Men & Mice Remote Control IANA assigned this well-formed service name as a replacement for "
-4151,udp,"menandmice-noh","Men & Mice Remote Control IANA assigned this well-formed service name as a replacement for "
-4152,tcp,"idig-mux","iDigTech Multiplex IANA assigned this well-formed service name as a replacement for "
-4152,udp,"idig-mux","iDigTech Multiplex IANA assigned this well-formed service name as a replacement for "
+4151,tcp,"menandmice-noh","Men & Mice Remote ControlFormerly menandmice_noh."
+4151,udp,"menandmice-noh","Men & Mice Remote ControlFormerly menandmice_noh."
+4152,tcp,"idig-mux","iDigTech MultiplexFormerly idig_mux."
+4152,udp,"idig-mux","iDigTech MultiplexFormerly idig_mux."
 4153,tcp,"mbl-battd","MBL Remote Battery Monitoring"
 4153,udp,"mbl-battd","MBL Remote Battery Monitoring"
 4154,tcp,atlinks,"atlinks device discovery"
@@ -7686,13 +7690,13 @@
 4182,udp,pcptcpservice,"Production Company Pro TCP Service"
 4183,tcp,cyborgnet,"CyborgNet communications protocol"
 4183,udp,cyborgnet,"CyborgNet communications protocol"
-4184,tcp,"universe-suite","UNIVERSE SUITE MESSAGE SERVICE IANA assigned this well-formed service name as a replacement for "
-4184,udp,"universe-suite","UNIVERSE SUITE MESSAGE SERVICE IANA assigned this well-formed service name as a replacement for "
+4184,tcp,"universe-suite","UNIVERSE SUITE MESSAGE SERVICEFormerly universe_suite."
+4184,udp,"universe-suite","UNIVERSE SUITE MESSAGE SERVICEFormerly universe_suite."
 4185,tcp,wcpp,"Woven Control Plane Protocol"
 4185,udp,wcpp,"Woven Control Plane Protocol"
 4186,tcp,boxbackupstore,"Box Backup Store Service"
 4186,udp,"",Reserved
-4187,tcp,"csc-proxy","Cascade Proxy IANA assigned this well-formed service name as a replacement for "
+4187,tcp,"csc-proxy","Cascade ProxyFormerly csc_proxy."
 4187,udp,"",Reserved
 4188,tcp,vatata,"Vatata Peer to Peer Protocol"
 4188,udp,vatata,"Vatata Peer to Peer Protocol"
@@ -7750,8 +7754,8 @@
 4316,udp,"",Reserved
 4317,tcp,opentelemetry,"OpenTelemetry Protocol"
 4317,udp,"",Reserved
-4319,tcp,"fox-skytale","Fox SkyTale encrypted communication"
-4319,udp,"fox-skytale","Fox SkyTale encrypted communication"
+4319,tcp,skytale,"Sentyron SkyTale encrypted communication"
+4319,udp,skytale,"Sentyron SkyTale encrypted communication"
 4320,tcp,"fdt-rcatp","FDT Remote Categorization Protocol"
 4320,udp,"fdt-rcatp","FDT Remote Categorization Protocol"
 4321,tcp,rwhois,"Remote Who Is"
@@ -7825,7 +7829,7 @@
 4358,udp,"qsnet-nucl","QSNet Nucleus"
 4359,tcp,omabcastltkm,"OMA BCAST Long-Term Key Messages"
 4359,udp,omabcastltkm,"OMA BCAST Long-Term Key Messages"
-4360,tcp,"matrix-vnet","Matrix VNet Communication Protocol IANA assigned this well-formed service name as a replacement for "
+4360,tcp,"matrix-vnet","Matrix VNet Communication ProtocolFormerly matrix_vnet."
 4360,udp,"",Reserved
 4361,tcp,"",Reserved
 4361,udp,nacnl,"NavCom Discovery and Control Port"
@@ -7837,8 +7841,8 @@
 4368,udp,wxbrief,"WeatherBrief Direct"
 4369,tcp,epmd,"Erlang Port Mapper Daemon"
 4369,udp,epmd,"Erlang Port Mapper Daemon"
-4370,tcp,"elpro-tunnel","ELPRO V2 Protocol Tunnel IANA assigned this well-formed service name as a replacement for "
-4370,udp,"elpro-tunnel","ELPRO V2 Protocol Tunnel IANA assigned this well-formed service name as a replacement for "
+4370,tcp,"elpro-tunnel","ELPRO V2 Protocol TunnelFormerly elpro_tunnel."
+4370,udp,"elpro-tunnel","ELPRO V2 Protocol TunnelFormerly elpro_tunnel."
 4371,tcp,"l2c-control","LAN2CAN Control"
 4371,udp,"l2c-disc","LAN2CAN Discovery"
 4372,tcp,"l2c-data","LAN2CAN Data"
@@ -7899,8 +7903,8 @@
 4411,udp,"",Reserved
 4412,tcp,"",Reserved
 4412,udp,smallchat,SmallChat
-4413,tcp,"avi-nms","AVI Systems NMS"
-4413,udp,"avi-nms-disc","AVI Systems NMS"
+4413,tcp,"vision-mon","FORTÉ Vision Monitoring platform"
+4413,udp,"vision-mon-disc","FORTÉ Vision Monitoring platform"
 4414,tcp,updog,"Updog Monitoring and Status Framework"
 4414,udp,"",Reserved
 4415,tcp,"brcd-vr-req","Brocade Virtual Router Request"
@@ -7977,6 +7981,8 @@
 4458,udp,mcp,"Matrix Configuration Protocol"
 4460,tcp,ntske,"Network Time Security Key Establishment"
 4460,udp,"",Reserved
+4480,tcp,agtp,"Agent Transfer Protocol"
+4480,udp,"agtp-quic","Agent Transfer Protocol over QUIC"
 4484,tcp,hpssmgmt,"hpssmgmt service"
 4484,udp,hpssmgmt,"hpssmgmt service"
 4485,tcp,"assyst-dr","Assyst Data Repository Service"
@@ -7990,6 +7996,8 @@
 4500,tcp,"ipsec-nat-t","IPsec NAT-Traversal"
 4500,udp,"ipsec-nat-t","IPsec NAT-Traversal"
 4502,sctp,"a25-fap-fgw","A25 (FAP-FGW)"
+4503,tcp,"",Reserved
+4503,udp,"m-bus-oms","M-Bus-OMS over UDP"
 4534,tcp,"",Reserved
 4534,udp,armagetronad,"Armagetron Advanced Game Server"
 4535,tcp,ehs,"Event Heap Server"
@@ -8081,8 +8089,8 @@
 4606,udp,"",Reserved
 4621,tcp,"",Reserved
 4621,udp,ventoso,"Bidirectional single port remote radio VOIP and Control stream"
-4646,tcp,"dots-signal","Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names "
-4646,udp,"dots-signal","Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names "
+4646,tcp,"dots-signal","Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names _dots-signal._udp and _dots-signal._tcp for discovering DOTS servers used to establish DOTS signal channel."
+4646,udp,"dots-signal","Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel Protocol. The service name is used to construct the SRV service names _dots-signal._udp and _dots-signal._tcp for discovering DOTS servers used to establish DOTS signal channel."
 4658,tcp,"playsta2-app","PlayStation2 App Port"
 4658,udp,"playsta2-app","PlayStation2 App Port"
 4659,tcp,"playsta2-lob","PlayStation2 Lobby Port"
@@ -8244,6 +8252,10 @@
 4791,udp,roce,"IP Routable RocE"
 4792,tcp,"unified-bus","IP Routable Unified Bus"
 4792,udp,"unified-bus","IP Routable Unified Bus"
+4793,tcp,"",Reserved
+4793,udp,uet,"Ultra Ethernet Transport"
+4794,tcp,"",Reserved
+4794,udp,veroce,"veRoCE Transport Protocol"
 4800,tcp,iims,"Icona Instant Messenging System"
 4800,udp,iims,"Icona Instant Messenging System"
 4801,tcp,iwec,"Icona Web Embedded Chat"
@@ -8274,8 +8286,8 @@
 4844,udp,"gw-log","nCode ICE-flow Library LogServer"
 4845,tcp,"wcr-remlib","WordCruncher Remote Library Service"
 4845,udp,"wcr-remlib","WordCruncher Remote Library Service"
-4846,tcp,"contamac-icm","Contamac ICM Service IANA assigned this well-formed service name as a replacement for "
-4846,udp,"contamac-icm","Contamac ICM Service IANA assigned this well-formed service name as a replacement for "
+4846,tcp,"contamac-icm","Contamac ICM ServiceFormerly contamac_icm."
+4846,udp,"contamac-icm","Contamac ICM ServiceFormerly contamac_icm."
 4847,tcp,wfc,"Web Fresh Communication"
 4847,udp,wfc,"Web Fresh Communication"
 4848,tcp,"appserv-http","App Server - Admin HTTP"
@@ -8326,7 +8338,7 @@
 4899,udp,"radmin-port","RAdmin Port"
 4900,tcp,hfcs,"HFSQL Client/Server Database Engine"
 4900,udp,hfcs,"HFSQL Client/Server Database Engine"
-4901,tcp,"flr-agent","FileLocator Remote Search Agent IANA assigned this well-formed service name as a replacement for "
+4901,tcp,"flr-agent","FileLocator Remote Search AgentFormerly flr_agent."
 4901,udp,"",Reserved
 4902,tcp,magiccontrol,"magicCONROL RF and Data Interface"
 4902,udp,"",Reserved
@@ -8587,14 +8599,14 @@
 5136,udp,"minotaur-sa","Minotaur SA"
 5137,tcp,ctsd,"MyCTS server port"
 5137,udp,ctsd,"MyCTS server port"
-5145,tcp,"rmonitor-secure","RMONITOR SECURE IANA assigned this well-formed service name as a replacement for "
-5145,udp,"rmonitor-secure","RMONITOR SECURE IANA assigned this well-formed service name as a replacement for "
+5145,tcp,"rmonitor-secure","RMONITOR SECUREFormerly rmonitor_secure."
+5145,udp,"rmonitor-secure","RMONITOR SECUREFormerly rmonitor_secure."
 5146,tcp,"social-alarm","Social Alarm Service"
 5146,udp,"",Reserved
 5150,tcp,atmp,"Ascend Tunnel Management Protocol"
 5150,udp,atmp,"Ascend Tunnel Management Protocol"
-5151,tcp,"esri-sde","ESRI SDE Instance IANA assigned this well-formed service name as a replacement for "
-5151,udp,"esri-sde","ESRI SDE Remote Start IANA assigned this well-formed service name as a replacement for "
+5151,tcp,"esri-sde","ESRI SDE Instance   ; formerly esri_sde."
+5151,udp,"esri-sde","ESRI SDE Remote Start   ; formerly esri_sde."
 5152,tcp,"sde-discovery","ESRI SDE Instance Discovery"
 5152,udp,"sde-discovery","ESRI SDE Instance Discovery"
 5153,tcp,"",Reserved
@@ -8615,8 +8627,8 @@
 5163,udp,"",Reserved
 5164,tcp,vpa,"Virtual Protocol Adapter"
 5164,udp,"vpa-disc","Virtual Protocol Adapter Discovery"
-5165,tcp,"ife-icorp","ife_1corp IANA assigned this well-formed service name as a replacement for "
-5165,udp,"ife-icorp","ife_1corp IANA assigned this well-formed service name as a replacement for "
+5165,tcp,"ife-icorp","ife_1corpFormerly ife_icorp."
+5165,udp,"ife-icorp","ife_1corpFormerly ife_icorp."
 5166,tcp,winpcs,"WinPCS Service Connection"
 5166,udp,winpcs,"WinPCS Service Connection"
 5167,tcp,scte104,"SCTE104 Connection"
@@ -8637,7 +8649,7 @@
 5194,udp,"",Reserved
 5195,tcp,"ampl-lic","The protocol is used by a license server and client programs to control use of program licenses that float to networked machines"
 5195,udp,"",Reserved
-5196,tcp,"ampl-tableproxy","The protocol is used by two programs that exchange "
+5196,tcp,"ampl-tableproxy","The protocol is used by two programs that exchange table data used in the AMPL modeling language"
 5196,udp,"",Reserved
 5197,tcp,"tunstall-lwp","Tunstall Lone worker device interface"
 5197,udp,"",Reserved
@@ -8769,6 +8781,8 @@
 5317,udp,"",Reserved
 5318,tcp,"pkix-cmc","PKIX Certificate Management using CMS (CMC)"
 5318,udp,"",Reserved
+5319,tcp,roughtime,"Roughtime time synchronization"
+5319,udp,roughtime,"Roughtime time synchronization"
 5320,tcp,"bsfserver-zn","Webservices-based Zn interface of BSF"
 5320,udp,"",Reserved
 5321,tcp,"bsfsvr-zn-ssl","Webservices-based Zn interface of BSF over SSL"
@@ -9235,6 +9249,9 @@
 5913,sctp,"ads-c","Automatic Dependent Surveillance"
 5913,tcp,"aoc-acars","Airline operational communications applications using ACARS"
 5913,udp,"aoc-acars","Airline operational communications applications using ACARS"
+5914,sctp,ipsdtls,"Security for Internet Protocol Suite"
+5914,tcp,ipsdtls,"Security for Internet Protocol Suite"
+5914,udp,ipsdtls,"Security for Internet Protocol Suite"
 5963,tcp,indy,"Indy Application Server"
 5963,udp,indy,"Indy Application Server"
 5968,tcp,"mppolicy-v5","mppolicy-v5"
@@ -9421,8 +9438,8 @@
 6269,udp,"grid-alt","Grid Authentication Alt"
 6300,tcp,"bmc-grx","BMC GRX"
 6300,udp,"bmc-grx","BMC GRX"
-6301,tcp,"bmc-ctd-ldap","BMC CONTROL-D LDAP SERVER IANA assigned this well-formed service name as a replacement for "
-6301,udp,"bmc-ctd-ldap","BMC CONTROL-D LDAP SERVER IANA assigned this well-formed service name as a replacement for "
+6301,tcp,"bmc-ctd-ldap","BMC CONTROL-D LDAP SERVERFormerly bmc_ctd_ldap."
+6301,udp,"bmc-ctd-ldap","BMC CONTROL-D LDAP SERVERFormerly bmc_ctd_ldap."
 6306,tcp,ufmp,"Unified Fabric Management Protocol"
 6306,udp,ufmp,"Unified Fabric Management Protocol"
 6315,tcp,scup,"Sensor Control Unit Protocol"
@@ -9431,6 +9448,8 @@
 6316,udp,"abb-escp","Ethernet Sensor Communications Protocol"
 6317,tcp,"nav-data-cmd","Navtech Radar Sensor Data Command"
 6317,udp,"nav-data","Navtech Radar Sensor Data"
+6318,tcp,"iona-data","IONA Measurement and control data"
+6318,udp,"",Reserved
 6320,tcp,repsvc,"Double-Take Replication Service"
 6320,udp,repsvc,"Double-Take Replication Service"
 6321,tcp,"emp-server1","Empress Software Connectivity Server 1"
@@ -9487,10 +9506,10 @@
 6442,udp,"",Reserved
 6443,tcp,"sun-sr-https","Service Registry Default HTTPS Domain"
 6443,udp,"sun-sr-https","Service Registry Default HTTPS Domain"
-6444,tcp,"sge-qmaster","Grid Engine Qmaster Service IANA assigned this well-formed service name as a replacement for "
-6444,udp,"sge-qmaster","Grid Engine Qmaster Service IANA assigned this well-formed service name as a replacement for "
-6445,tcp,"sge-execd","Grid Engine Execution Service IANA assigned this well-formed service name as a replacement for "
-6445,udp,"sge-execd","Grid Engine Execution Service IANA assigned this well-formed service name as a replacement for "
+6444,tcp,"sge-qmaster","Grid Engine Qmaster ServiceFormerly sge_qmaster."
+6444,udp,"sge-qmaster","Grid Engine Qmaster ServiceFormerly sge_qmaster."
+6445,tcp,"sge-execd","Grid Engine Execution ServiceFormerly sge_execd."
+6445,udp,"sge-execd","Grid Engine Execution ServiceFormerly sge_execd."
 6446,tcp,"mysql-proxy","MySQL Proxy"
 6446,udp,"mysql-proxy","MySQL Proxy"
 6455,tcp,"skip-cert-recv","SKIP Certificate Receive"
@@ -9523,20 +9542,20 @@
 6489,udp,"sun-sr-admin","Service Registry Default Admin Domain"
 6500,tcp,boks,"BoKS Master"
 6500,udp,boks,"BoKS Master"
-6501,tcp,"boks-servc","BoKS Servc IANA assigned this well-formed service name as a replacement for "
-6501,udp,"boks-servc","BoKS Servc IANA assigned this well-formed service name as a replacement for "
-6502,tcp,"boks-servm","BoKS Servm IANA assigned this well-formed service name as a replacement for "
-6502,udp,"boks-servm","BoKS Servm IANA assigned this well-formed service name as a replacement for "
-6503,tcp,"boks-clntd","BoKS Clntd IANA assigned this well-formed service name as a replacement for "
-6503,udp,"boks-clntd","BoKS Clntd IANA assigned this well-formed service name as a replacement for "
-6505,tcp,"badm-priv","BoKS Admin Private Port IANA assigned this well-formed service name as a replacement for "
-6505,udp,"badm-priv","BoKS Admin Private Port IANA assigned this well-formed service name as a replacement for "
-6506,tcp,"badm-pub","BoKS Admin Public Port IANA assigned this well-formed service name as a replacement for "
-6506,udp,"badm-pub","BoKS Admin Public Port IANA assigned this well-formed service name as a replacement for "
-6507,tcp,"bdir-priv","BoKS Dir Server, Private Port IANA assigned this well-formed service name as a replacement for "
-6507,udp,"bdir-priv","BoKS Dir Server, Private Port IANA assigned this well-formed service name as a replacement for "
-6508,tcp,"bdir-pub","BoKS Dir Server, Public Port IANA assigned this well-formed service name as a replacement for "
-6508,udp,"bdir-pub","BoKS Dir Server, Public Port IANA assigned this well-formed service name as a replacement for "
+6501,tcp,"boks-servc","BoKS ServcFormerly boks_servc."
+6501,udp,"boks-servc","BoKS ServcFormerly boks_servc."
+6502,tcp,"boks-servm","BoKS ServmFormerly boks_servm."
+6502,udp,"boks-servm","BoKS ServmFormerly boks_servm."
+6503,tcp,"boks-clntd","BoKS ClntdFormerly boks_clntd."
+6503,udp,"boks-clntd","BoKS ClntdFormerly boks_clntd."
+6505,tcp,"badm-priv","BoKS Admin Private PortFormerly badm_priv."
+6505,udp,"badm-priv","BoKS Admin Private PortFormerly badm_priv."
+6506,tcp,"badm-pub","BoKS Admin Public PortFormerly badm_pub."
+6506,udp,"badm-pub","BoKS Admin Public PortFormerly badm_pub."
+6507,tcp,"bdir-priv","BoKS Dir Server, Private PortFormerly bdir_priv."
+6507,udp,"bdir-priv","BoKS Dir Server, Private PortFormerly bdir_priv."
+6508,tcp,"bdir-pub","BoKS Dir Server, Public PortFormerly bdir_pub."
+6508,udp,"bdir-pub","BoKS Dir Server, Public PortFormerly bdir_pub."
 6509,tcp,"mgcs-mfp-port","MGCS-MFP Port"
 6509,udp,"mgcs-mfp-port","MGCS-MFP Port"
 6510,tcp,"mcer-port","MCER Port"
@@ -9570,7 +9589,7 @@
 6558,udp,xdsxdm,""
 6566,tcp,"sane-port","SANE Control Port"
 6566,udp,"sane-port","SANE Control Port"
-6568,tcp,"canit-store","CanIt Storage Manager IANA assigned this well-formed service name as a replacement for "
+6568,tcp,"canit-store","CanIt Storage ManagerFormerly canit_store."
 6568,udp,"rp-reputation","Roaring Penguin IP Address Reputation Collection"
 6579,tcp,affiliate,Affiliate
 6579,udp,affiliate,Affiliate
@@ -9634,10 +9653,10 @@
 6670,udp,"vocaltec-gold","Vocaltec Global Online Directory"
 6671,tcp,"p4p-portal","P4P Portal Service"
 6671,udp,"p4p-portal","P4P Portal Service"
-6672,tcp,"vision-server","vision_server IANA assigned this well-formed service name as a replacement for "
-6672,udp,"vision-server","vision_server IANA assigned this well-formed service name as a replacement for "
-6673,tcp,"vision-elmd","vision_elmd IANA assigned this well-formed service name as a replacement for "
-6673,udp,"vision-elmd","vision_elmd IANA assigned this well-formed service name as a replacement for "
+6672,tcp,"vision-server","vision_serverFormerly vision_server."
+6672,udp,"vision-server","vision_serverFormerly vision_server."
+6673,tcp,"vision-elmd","vision_elmdFormerly vision_elmd."
+6673,udp,"vision-elmd","vision_elmdFormerly vision_elmd."
 6678,tcp,vfbp,"Viscount Freedom Bridge Protocol"
 6678,udp,"vfbp-disc","Viscount Freedom Bridge Discovery"
 6679,tcp,osaut,"Osorno Automation"
@@ -10034,6 +10053,8 @@
 7570,udp,"aries-kfinder","Aries Kfinder"
 7574,tcp,coherence,"Oracle Coherence Cluster Service"
 7574,udp,"coherence-disc","Oracle Coherence Cluster discovery service"
+7575,tcp,"wtmi-panel","Main access port for WTMI Panel"
+7575,udp,"",Reserved
 7588,tcp,"sun-lm","Sun License Manager"
 7588,udp,"sun-lm","Sun License Manager"
 7606,tcp,"mipi-debug","MIPI Alliance Debug"
@@ -10059,6 +10080,8 @@
 7648,udp,cuseeme,"bonjour-cuseeme"
 7663,tcp,rome,"Proprietary immutable distributed data storage"
 7663,udp,rome,"Proprietary immutable distributed data storage"
+7668,tcp,authoritygate,"AuthorityGate Secure API communication for Orchestrated task sequencing"
+7668,udp,"",Reserved
 7672,tcp,imqstomp,"iMQ STOMP Server"
 7672,udp,"",Reserved
 7673,tcp,imqstomps,"iMQ STOMP Server over SSL"
@@ -10754,6 +10777,8 @@
 9163,udp,apani4,apani4
 9164,tcp,apani5,apani5
 9164,udp,apani5,apani5
+9183,tcp,"sirius-agent","Sirius Configuration Agent"
+9183,udp,"sirius-agent","Sirius Configuration Agent"
 9191,tcp,"sun-as-jpda","Sun AppSvr JPDA"
 9191,udp,"sun-as-jpda","Sun AppSvr JPDA"
 9200,tcp,"wap-wsp","WAP connectionless session service"
@@ -10916,9 +10941,9 @@
 9612,udp,"streamcomm-ds","StreamComm User Directory"
 9614,tcp,"iadt-tls","iADT Protocol over TLS"
 9614,udp,"",Reserved
-9616,tcp,"erunbook-agent","eRunbook Agent IANA assigned this well-formed service name as a replacement for "
+9616,tcp,"erunbook-agent","eRunbook AgentFormerly erunbook_agent."
 9616,udp,"",Reserved
-9617,tcp,"erunbook-server","eRunbook Server IANA assigned this well-formed service name as a replacement for "
+9617,tcp,"erunbook-server","eRunbook ServerFormerly erunbook_server."
 9617,udp,"",Reserved
 9618,tcp,condor,"Condor Collector Service"
 9618,udp,condor,"Condor Collector Service"
@@ -11011,6 +11036,8 @@
 9979,udp,"",Reserved
 9981,tcp,pumpkindb,"Event sourcing database engine with a built-in programming language"
 9981,udp,"",Reserved
+9986,tcp,kaostransport,"KAOS secure message transport protocol for safety-critical environments"
+9986,udp,"",Reserved
 9987,tcp,"dsm-scm-target","DSM/SCM Target Interface"
 9987,udp,"dsm-scm-target","DSM/SCM Target Interface"
 9988,tcp,nsesrvr,"Software Essentials Secure HTTP server"
@@ -11041,8 +11068,8 @@
 10001,udp,"scp-config","SCP Configuration"
 10002,tcp,documentum,"EMC-Documentum Content Server Product"
 10002,udp,documentum,"EMC-Documentum Content Server Product"
-10003,tcp,"documentum-s","EMC-Documentum Content Server Product IANA assigned this well-formed service name as a replacement for "
-10003,udp,"documentum-s","EMC-Documentum Content Server Product IANA assigned this well-formed service name as a replacement for "
+10003,tcp,"documentum-s","EMC-Documentum Content Server ProductFormerly documentum_s."
+10003,udp,"documentum-s","EMC-Documentum Content Server ProductFormerly documentum_s."
 10004,tcp,emcrmirccd,"EMC Replication Manager Client"
 10004,udp,"",Reserved
 10005,tcp,emcrmird,"EMC Replication Manager Server"
@@ -11149,7 +11176,7 @@
 10800,udp,gap,"Gestor de Acaparamiento para Pocket PCs"
 10805,tcp,lpdg,"LUCIA Pareja Data Group"
 10805,udp,lpdg,"LUCIA Pareja Data Group"
-10809,tcp,nbd,"Linux Network Block Device"
+10809,tcp,nbd,"Network Block Device"
 10809,udp,"",Reserved
 10810,tcp,"",Reserved
 10810,udp,"nmc-disc","Nuance Mobile Care Discovery"
@@ -11228,6 +11255,8 @@
 11371,udp,hkp,"OpenPGP HTTP Keyserver"
 11430,tcp,"",Reserved
 11430,udp,lsdp,"Lenbrook Service Discovery Protocol"
+11434,tcp,ollama,Ollama
+11434,udp,"",Reserved
 11489,tcp,asgcypresstcps,"ASG Cypress Secure Only"
 11489,udp,"",Reserved
 11600,tcp,"tempest-port","Tempest Protocol Port"
@@ -11604,8 +11633,8 @@
 20013,udp,"",Reserved
 20014,tcp,opendeploy,"OpenDeploy Listener"
 20014,udp,opendeploy,"OpenDeploy Listener"
-20034,tcp,"nburn-id","NetBurner ID Port IANA assigned this well-formed service name as a replacement for "
-20034,udp,"nburn-id","NetBurner ID Port IANA assigned this well-formed service name as a replacement for "
+20034,tcp,"nburn-id","NetBurner ID PortFormerly nburn_id."
+20034,udp,"nburn-id","NetBurner ID PortFormerly nburn_id."
 20046,tcp,tmophl7mts,"TMOP HL7 Message Transfer Service"
 20046,udp,tmophl7mts,"TMOP HL7 Message Transfer Service"
 20048,tcp,mountd,"NFS mount protocol"
@@ -11639,6 +11668,8 @@
 21213,udp,"",Reserved
 21221,tcp,aigairserver,"Services for Air Server"
 21221,udp,"",Reserved
+21337,tcp,xahaud,"Xahau P2P network protocol"
+21337,udp,"",Reserved
 21553,tcp,"rdm-tfs","Raima RDM TFS"
 21553,udp,"",Reserved
 21554,tcp,dfserver,"MineScape Design File Server"
@@ -11758,14 +11789,16 @@
 24322,udp,hid,"Transport of Human Interface Device data streams"
 24323,tcp,"vrmg-ip","Verimag mobile class protocol over TCP"
 24323,udp,"",Reserved
-24386,tcp,"intel-rci","Intel RCI IANA assigned this well-formed service name as a replacement for "
-24386,udp,"intel-rci","Intel RCI IANA assigned this well-formed service name as a replacement for "
+24386,tcp,"intel-rci","Intel RCIFormerly intel_rci."
+24386,udp,"intel-rci","Intel RCIFormerly intel_rci."
 24465,tcp,tonidods,"Tonido Domain Server"
 24465,udp,tonidods,"Tonido Domain Server"
 24554,tcp,binkp,BINKP
 24554,udp,binkp,BINKP
 24577,tcp,bilobit,"bilobit Service"
 24577,udp,"bilobit-update","bilobit Service Update"
+24601,tcp,"",Reserved
+24601,udp,udpstp,"UDP-based IP-Layer Capacity and Performance Measurement protocol"
 24666,tcp,sdtvwcam,"Service used by SmarDTV to communicate between a CAM and a second screen application"
 24666,udp,"",Reserved
 24676,tcp,canditv,"Canditv Message Service"
@@ -11847,6 +11880,8 @@
 26489,udp,exonet,EXOnet
 27010,tcp,"flex-lmadmin","A protocol for managing license services"
 27010,udp,"",Reserved
+27016,tcp,chlenix,"Cloud hosting environment network"
+27016,udp,"",Reserved
 27017,tcp,mongodb,"Mongo database system"
 27017,udp,"",Reserved
 27345,tcp,imagepump,ImagePump
@@ -11909,6 +11944,8 @@
 30400,udp,"",Reserved
 30832,tcp,"",Reserved
 30832,udp,"samsung-disc","Samsung Convergence Discovery Protocol"
+30939,tcp,dilithium3,"Persistent peer-to-peer connections for block propagation, transaction relay, and BFT consensus message exchange."
+30939,udp,dilithium3,"Kademlia DHT peer discovery and routing table maintenance."
 30999,tcp,ovobs,"OpenView Service Desk Client"
 30999,udp,ovobs,"OpenView Service Desk Client"
 31016,tcp,"ka-sddp","Kollective Agent Secure Distributed Delivery Protocol"
@@ -11927,14 +11964,14 @@
 31457,udp,tetrinet,"TetriNET Protocol"
 31620,tcp,"lm-mon","lm mon"
 31620,udp,"lm-mon","lm mon"
-31685,tcp,"dsx-monitor","DS Expert Monitor IANA assigned this well-formed service name as a replacement for "
+31685,tcp,"dsx-monitor","DS Expert MonitorFormerly dsx_monitor."
 31685,udp,"",Reserved
 31765,tcp,"gamesmith-port","GameSmith Port"
 31765,udp,"gamesmith-port","GameSmith Port"
-31948,tcp,"iceedcp-tx","Embedded Device Configuration Protocol TX IANA assigned this well-formed service name as a replacement for "
-31948,udp,"iceedcp-tx","Embedded Device Configuration Protocol TX IANA assigned this well-formed service name as a replacement for "
-31949,tcp,"iceedcp-rx","Embedded Device Configuration Protocol RX IANA assigned this well-formed service name as a replacement for "
-31949,udp,"iceedcp-rx","Embedded Device Configuration Protocol RX IANA assigned this well-formed service name as a replacement for "
+31948,tcp,"iceedcp-tx","Embedded Device Configuration Protocol TXFormerly iceedcp_tx."
+31948,udp,"iceedcp-tx","Embedded Device Configuration Protocol TXFormerly iceedcp_tx."
+31949,tcp,"iceedcp-rx","Embedded Device Configuration Protocol RXFormerly iceedcp_rx."
+31949,udp,"iceedcp-rx","Embedded Device Configuration Protocol RXFormerly iceedcp_rx."
 32034,tcp,iracinghelper,"iRacing helper service"
 32034,udp,iracinghelper,"iRacing helper service"
 32249,tcp,t1distproc60,"T1 Distributed Processor"
@@ -12009,6 +12046,10 @@
 34963,udp,"profinet-rtm","PROFInet RT Multicast"
 34964,tcp,"profinet-cm","PROFInet Context Manager"
 34964,udp,"profinet-cm","PROFInet Context Manager"
+34965,tcp,"profinet-cm-sec","PROFINET secure connection management and key provisioning"
+34965,udp,"profinet-cm-sec","PROFINET secure connection management and key provisioning"
+34966,tcp,"",Reserved
+34966,udp,"profinet-rt-sec","PROFINET secure real-time data transfer over UDP (unicast and multicast)"
 34980,tcp,ethercat,"EtherCAT Port"
 34980,udp,ethercat,"EtherCAT Port"
 35000,tcp,heathview,HeathView
@@ -12165,8 +12206,8 @@
 44123,udp,"",Reserved
 44321,tcp,pmcd,"PCP server (pmcd)"
 44321,udp,pmcd,"PCP server (pmcd)"
-44322,tcp,pmcdproxy,"PCP server (pmcd) proxy"
-44322,udp,pmcdproxy,"PCP server (pmcd) proxy"
+44322,tcp,pmproxy,"PCP proxy (pmproxy)"
+44322,udp,pmproxy,"PCP proxy (pmproxy)"
 44323,tcp,pmwebapi,"HTTP binding for Performance Co-Pilot client API"
 44444,tcp,"cognex-dataman","Cognex DataMan Management Protocol"
 44444,udp,"",Reserved
@@ -12178,8 +12219,8 @@
 44553,udp,"rbr-debug","REALbasic Remote Debug"
 44600,tcp,"",Reserved
 44600,udp,asihpi,"AudioScience HPI"
-44818,tcp,"EtherNet-IP-2","EtherNet/IP messaging IANA assigned this well-formed service name as a replacement for "
-44818,udp,"EtherNet-IP-2","EtherNet/IP messaging IANA assigned this well-formed service name as a replacement for "
+44818,tcp,"EtherNet-IP-2","EtherNet/IP messagingFormerly EtherNet/IP-2."
+44818,udp,"EtherNet-IP-2","EtherNet/IP messagingFormerly EtherNet/IP-2."
 44900,tcp,m3da,"M3DA is used for efficient machine-to-machine communications"
 44900,udp,"m3da-disc","M3DA Discovery is used for efficient machine-to-machine communications"
 45000,tcp,asmp,"Nuance AutoStore Status Monitoring Protocol (data transfer)"
@@ -12192,6 +12233,8 @@
 45045,udp,"",Reserved
 45054,tcp,"invision-ag","InVision AG"
 45054,udp,"invision-ag","InVision AG"
+45185,tcp,witsnet,"Wire and Wireless transfer on synchroniz"
+45185,udp,witsnet,"Wire and Wireless transfer on synchroniz"
 45514,tcp,cloudcheck,"ASSIA CloudCheck WiFi Management System"
 45514,udp,"cloudcheck-ping","ASSIA CloudCheck WiFi Management keepalive"
 45678,tcp,eba,"EBA PRISE"
